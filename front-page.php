@@ -6,7 +6,9 @@ get_header();
       <a class="large_lang_en" href="https://ccdesignweb.com/"></a>
       <a class="large_lang_fr" href="https://ccdesignweb.com/fr/home-2/"></a>
     </div>
-  <div class="logo"></div>
+    <div class="par-pic1">
+      <div class="logo"></div>
+    </div>
   <div class="cool container-fluid"></div>
   <h1 class="title_topic"><?php the_title();?></h1>
   <?php

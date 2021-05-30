@@ -1,4 +1,4 @@
-<div class=" par-pic">
+<div class="par-pic">
       <div class="image-container"></div>
   </div>
   <footer>
