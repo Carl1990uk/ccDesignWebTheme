@@ -27,12 +27,8 @@ html{
     top: 0;
     left: 0;
     right: 0;
-    background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/long-logo-scaled.jpg);
+    background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/long-logo-2-scaled.jpg);
     background-size: 100% 100%;
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .nav-menu{
@@ -69,7 +65,7 @@ html{
         top: -45px;
         left: 0;
         right: 0;
-        background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/long-logo-scaled.jpg);
+        background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/long-logo-2-scaled.jpg);
         background-size: 100% 100%;
     }
 }
@@ -132,7 +128,6 @@ ul li{
     content: "";
     background: rgb(12,12,12);
     background: linear-gradient(90deg, rgba(12,12,12,0.991567488811931) 35%, rgba(49,44,101,1) 62%);
-    /* top: -200px; */
     right: 0;
     left: 0;
     transform-origin: top right;
@@ -160,7 +155,6 @@ ul li{
     border: 3px solid gold;
     border-radius: 3px;
     position: relative;
-    /* top: -300px; */
     width: auto;
     height: fit-content;
     width: 80%;
@@ -177,7 +171,6 @@ ul li{
     border: 3px solid gold;;
     border-radius: 3px;
     position: relative;
-    /* top: -300px; */
     width: auto;
     height: fit-content;
     width: 100%;
@@ -191,10 +184,8 @@ ul li{
     position:sticky;
     height: 900px;
     width: 100%;
-    background: url(./assets/images/20200924_191146.jpg);
+    background: url(https://ccdesignweb.com/wp-content/uploads/2021/06/citylife-2-scaled.jpg);
     background-size: 100% 100%;
-    /* opacity: 0.9; */
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -204,10 +195,8 @@ ul li{
     position:sticky;
     height: 500px;
     width: 100%;
-    background: url(https://ccdesignweb.com/wp-content/uploads/2021/06/webdesign-scaled.jpeg);
+    background: url(https://ccdesignweb.com/wp-content/uploads/2021/06/webdesign-2-scaled.jpg);
     background-size: 100% 100%;
-    /* opacity: 0.9; */
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -226,16 +215,6 @@ ul li{
     height: 300px;
     
 }
-/* @media (min-width: 400px){
-    .full-width-split{
-        margin-top: -25%;
-    }
-}
-@media (min-width: 590px){
-    .full-width-split{
-        margin-top: -20%;
-    }
-} */
 .full-width-split{
     z-index: 1030;
     
@@ -253,29 +232,6 @@ ul li{
 ::-webkit-scrollbar {
     display: none !important;
 }
-/* @media (min-width: 300px){
-    .full-width-split{
-        margin-top: -80%;
-    }
-    
-}
-@media (min-width: 360px){
-    .full-width-split{
-        margin-top: -30%;
-    }
-    
-}
-@media (min-width: 1000px){
-    .write{
-       margin-bottom: 12px;
-    }
-    
-}
-@media (min-width: 1120px){
-    .full-width-split{
-        margin-top: 2%;
-    }
-} */
 /* Blog and latest work */
 @media (min-width: 960px) {
     .full-width-split {
@@ -481,7 +437,6 @@ ul li{
     overflow: hidden;
 }
 .site-footer__inner {
-    /* border-top: 1px dotted #DEDEDE; */
     padding-top: 3.5rem;
 }
 .container {
@@ -664,7 +619,6 @@ opacity: .75;
 .large_lang{
     right: 0;
     border: none;
-    /* z-index: 3000; */
     float: right;
     width: 120px !important;
     height: 50px;
@@ -683,7 +637,7 @@ opacity: .75;
     float: left;
     width: 50px;
     height: 25px;
-    background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/05/union-jack.jpg);
+    background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/union-jack1.jpg);
     background-size: 100% 100%;
     margin-right: 10px;
   }
@@ -726,7 +680,6 @@ tr{
     border: 3px solid gold;
     border-radius: 3px;
     position: relative;
-    /* top: -300px; */
     width: auto;
     height: fit-content;
     width: 90%;
@@ -825,39 +778,6 @@ box-shadow: 2px 2px 1px rgba(0, 0, 0, .07);
     text-decoration: none;
     font-weight: bold;
 }
-/* .metabox a:hover {
-    text-decoration: underline;
-} */
-/* .metabox .metabox__blog-home-link {
-    background-color: #0D3B66;
-    color: #FFF;
-    display: inline-block;
-    padding: 10px 15px;
-    border-radius: 3px 0 0 3px;
-    font-weight: normal;
-} */
-
-/* .single-box{
-    position: relative;
-    width: auto;
-    border: 1px solid red;
-    height: 60px;
-    top: -20px;
-    overflow: hidden;
-    padding-top: 30px;
-}
-.box_small_home{
-    border: 5px solid gold;
-    padding: 10px 15px 5px 11px;
-    border-radius: 10%;
-}
-.metabox_main {
-    border: 5px solid gold;
-    padding: 10px 15px 5px 11px;
-    border-radius: 20%;
-    position: relative;
-    left: -7px;
-} */
 .pic-gallery{
     margin-left: auto !important;
     margin-right: auto;
@@ -873,58 +793,6 @@ box-shadow: 2px 2px 1px rgba(0, 0, 0, .07);
     width: 0;
     height: 0;
 }
-/* @media(min-width:250px){
-    .pic-gallery{
-        width: 40%;
-        height: 100px;
-    }
-}
-@media(min-width:500px){
-    .pic-gallery{
-        width: 40%;
-        height: 200px;
-    }
-}
-@media(min-width:600px){
-    .pic-gallery{
-        width: 40%;
-        height: 200px;
-    }
-}
-.pic-gallery1{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    background-size: 100% 100% !important;
-    
-    height: 200px;   
-}
-.pic-gallery3{
-    margin-left: auto;
-    margin-right: auto;
-    background-size: 100% 100% !important;
-    max-width: 600px !important;
-    
-    height: 100px;
-}
-@media(min-width:250px){
-    .pic-gallery3{
-        width: 40%;
-        height: 100px;
-    }
-}
-@media(min-width:500px){
-    .pic-gallery3{
-        width: 40%;
-        height: 200px;
-    }
-}
-@media(min-width:600px){
-    .pic-gallery3{
-        width: 40%;
-        height: 200px;
-    }
-} */
 .write3{
     border: 3px solid gold;
     border-radius: 3px;
