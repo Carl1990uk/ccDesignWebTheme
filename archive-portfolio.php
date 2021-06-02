@@ -33,6 +33,9 @@ get_header();
             <div class="column">
                 <div class="content">
                     <div><?php the_post_thumbnail('port2'); ?></div>
+                    <div class="metabox">
+                        <p>Created on: <?php the_time('F j Y');?></p>
+                    </div>
                     <p><?php the_content();?></p>
                 </div>
             </div>

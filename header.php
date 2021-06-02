@@ -25,14 +25,12 @@
       'items_wrap' => '<ul id="" class="topNav">%3$s</ul>'
     ));
   ?>
-    <!-- <ul class="topNav">
-      <li class="moblinks"><a class="alink" href="http://ccdesignweb.com/">Home</a></li>
-      <li class="moblinks"><a class="alink" href="http://ccdesignweb.com/tariffs/">Tariffs</a></li>
-      <li class="moblinks"><a class="alink" href="http://ccdesignweb.com/portfolio">Portfolio</a></li>
-      <li class="moblinks"><a class="alink" href="http://ccdesignweb.com/blog/">Blog</a></li>
-      <li class="moblinks"><a class="alink" href="http://ccdesignweb.com/contact/">Contact</a></li>
-    </ul> -->
-    <button class="navbut" onclick="toggleNav()" type="button"data-target="dropnav"></button>
+    
+    <button class="navbut" onclick="toggleNav()" type="button"data-target="dropnav">
+      <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
   </div>
   <nav class="nav-menu" id="dropnav">
   <?php
@@ -43,11 +41,4 @@
       'items_wrap' => '<ul id="" class="float-end">%3$s</ul>'
     ));
   ?>
-    <!-- <ul class="float-end">
-      <li class="moblinks"><a class="alink" href="http://ccdesignweb.com/">Home</a></li>
-      <li class="moblinks"><a class="alink" href="http://ccdesignweb.com/tariffs/">Tariffs</a></li>
-      <li class="moblinks"><a class="alink" href="http://ccdesignweb.com/portfolio">Portfolio</a></li>
-      <li class="moblinks"><a class="alink" href="http://ccdesignweb.com/blog/">Blog</a></li>
-      <li class="moblinks"><a class="alink" href="http://ccdesignweb.com/contact/">Contact</a></li>
-    </ul> -->
   </nav>
