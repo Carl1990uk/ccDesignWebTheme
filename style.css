@@ -184,14 +184,14 @@ ul li{
     position:sticky;
     height: 900px;
     width: 100%;
-    background: url(https://ccdesignweb.com/wp-content/uploads/2021/06/citylife-2-scaled.jpg);
+    background: url(https://ccdesignweb.com/wp-content/uploads/2021/06/webdesign-2-scaled.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.art{
+/* .art{
     position:sticky;
     height: 500px;
     width: 100%;
@@ -201,7 +201,7 @@ ul li{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 .par-pic{
     position: relative;
     padding: 0;

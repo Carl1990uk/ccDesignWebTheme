@@ -24,7 +24,7 @@ get_header();
             ?>
     </div>
   </div>
-  <div class="art"></div>
+  <!-- <div class="art"></div> -->
   <div class="full-width-split group">
       <div class=" full-width-split__one">
           <div class="full-width-split__inner">
