@@ -645,8 +645,8 @@ opacity: .75;
     float: left;
     width: 50px;
     height: 25px;
-    background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/05/france-flag.jpg);
-    background-size: 100% 100%;
+    background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/france-flag.jpg);
+    background-size: 100% 100%; 
     margin-right: 0;
   }
 .title_topic{
@@ -889,3 +889,19 @@ box-shadow: 2px 2px 1px rgba(0, 0, 0, .07);
       width: 100% !important;
     }
   }
+.write4{
+    border: 3px solid gold;
+    border-radius: 3px;
+    position: relative;
+    width: auto;
+    height: fit-content;
+    width: 90%;
+    background: #FAF0CA;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    overflow: scroll;
+    overflow-y: hidden;
+    font-family: 'robot';
+    text-align: center;
+    }
