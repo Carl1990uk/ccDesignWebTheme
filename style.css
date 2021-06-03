@@ -691,6 +691,22 @@ tr{
     overflow-y: hidden;
     font-family: 'robot';
 }
+.write4{
+    border: 3px solid gold;
+    border-radius: 3px;
+    position: relative;
+    width: auto;
+    height: fit-content;
+    width: 90%;
+    background: #FAF0CA;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    overflow: scroll;
+    overflow-y: hidden;
+    font-family: 'robot';
+    text-align: center;
+}
 .write2_text, .write2_text a{
     width: 100%;
     height: auto;
@@ -708,8 +724,8 @@ height: auto;
 width: 70%;
 flex-grow: 0;
 justify-content: space-around;
-margin-bottom: 20%;
-margin-top: 20%;
+
+margin-top: 5%;
 margin-left: auto;
 margin-right: auto;
 }
@@ -731,13 +747,23 @@ border: none;
         padding: 10px;
         margin: 15px !important;
         border: none;
-        }
+    }
+    .formstart{
+        height: auto;
+        width: 90%;
+        flex-grow: 0;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
 }
 input[type=submit]{
 background: gold;
 border: none;
 border-radius: 5px;
 cursor: pointer;
+}
+input[type=message]{
+    height: 300px;
 }
 input[type=submit]:hover{
 background: #0D3B66;

@@ -83,7 +83,7 @@ else if ($_POST['submitted']) my_contact_form_generate_response("error", $missin
       <?php
          while(have_posts()){
           the_post();?>
-      <div class="write2">
+      <div class="write4">
       <?php the_content();
          }
       ?>
@@ -93,7 +93,7 @@ else if ($_POST['submitted']) my_contact_form_generate_response("error", $missin
                 <input placeholder="Email" type="hidden" name="message_email" value="<?php echo esc_attr($_POST['message_bot']); ?>"></label>
                 <input placeholder="Email" type="text" name="message_email" value="<?php echo esc_attr($_POST['message_email']); ?>"></label>
                 <input placeholder="Phone Number" type="text" name="message_number" value="<?php echo esc_attr($_POST['message_number']); ?>"></label>
-                <textarea placeholder="Your Message" type="text" name="message_text"><?php echo esc_attr($_POST['message_name']); ?></textarea></label></p>
+                <textarea placeholder="Your Message" type="message" name="message_text"><?php echo esc_attr($_POST['message_name']); ?></textarea></label></p>
                 <label for="message_human">Human Verification:     <input type="text" style="width: 60px;" name="message_human"> + 3 = 5</label></p>
                 <input type="hidden" name="submitted" value="1">
                 <input type="submit">
