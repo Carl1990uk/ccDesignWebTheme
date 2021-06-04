@@ -18,86 +18,74 @@ get_header();
             <div class="photo1"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white">Design</h2>
-              <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+              <h2 class="text-white text-center mt-5">Design</h2>
+              <p class="text-white text-center cent-text mt-5">We will help you create a website branding that is tailored to your business.</p>
           </div>
         </div>
-        <div class="rowing">
+        <div class="rowing potatoing">
           <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white">Design</h2>
-            <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+            <h2 class="text-white text-center mt-5">Responsive: </h2>
+            <p class="text-white text-center mt-5">With all packages your website will be viewable from iPads and tablets to phones and obviously laptop/computers.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1"></div>
-          </div>
-        </div>
-        <div class="rowing">
-          <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1"></div>
-          </div>
-          <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white">Design</h2>
-              <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
-          </div>
-        </div>
-        <div class="rowing">
-          <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white">Design</h2>
-            <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
-          </div>
-          <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1"></div>
+            <div class="photo2"></div>
           </div>
         </div>
         <div class="rowing">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1"></div>
+            <div class="photo3"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white">Design</h2>
-              <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+              <h2 class="text-white text-center mt-5">Security</h2>
+              <p class="text-white text-center mt-5">All websites come with a SSL certificate</p>
+          </div>
+        </div>
+        <div class="rowing potatoing">
+          <div class="categories__col col-lg col-sm-12">
+            <h2 class="text-white text-center mt-5">Hosting</h2>
+            <p class="text-white text-center mt-5">Good hosting is essential and we will deal the hosting on your behalf</p>
+          </div>
+          <div class="categories__col col-lg col-sm-12 ">
+            <div class="photo4"></div>
           </div>
         </div>
         <div class="rowing">
+          <div class="categories__col col-lg col-sm-12 ">
+            <div class="photo5"></div>
+          </div>
           <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white">Design</h2>
-            <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+              <h2 class="text-white text-center mt-5">Easy use</h2>
+              <p class="text-white text-center mt-5">After the website is published, you will have access to the WordPress CMS, and will have full power to edit your site as you please.</p>
+          </div>
+        </div>
+        <div class="rowing potatoing">
+          <div class="categories__col col-lg col-sm-12">
+            <h2 class="text-white text-center mt-5">Tech help</h2>
+            <p class="text-white text-center mt-5">Once you become a client of Designweb, you will receive full technical maintenance including backups, advice and much more.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1"></div>
+            <div class="photo6"></div>
           </div>
         </div>
         <div class="rowing">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1"></div>
+            <div class="photo7"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white">Design</h2>
-              <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+              <h2 class="text-white text-center mt-5">Search engine optimization (SEO)</h2>
+              <p class="text-white text-center mt-5">SEO is the process of improving your traffic to your website by search engines, such as google. Your website will be indexed, thus search engines such as google will be able to find you!</p>
           </div>
         </div>
-        <div class="rowing">
+        <div class="rowing potatoing">
           <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white">Design</h2>
-            <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+            <h2 class="text-white text-center mt-5">Domain</h2>
+            <p class="text-white text-center mt-5">Not forgetting the most important part, we will help you find the perfect name for your business.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1"></div>
+            <div class="photo8"></div>
           </div>
         </div>
     </section>
-
-  <?php
-        while(have_posts()){
-            the_post();?>
-        <div class="write">
-            
-            <?php
-            the_content(); 
-        }
-            ?>
-    </div>
-  </div>
   <!-- <div class="art"></div> -->
   <div class="full-width-split group">
       <div class=" full-width-split__one">
