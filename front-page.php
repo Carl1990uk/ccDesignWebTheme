@@ -9,10 +9,84 @@ get_header();
     <!-- <div class="par-pic1"> -->
       <div class="logo"></div>
     <!-- </div> -->
-  <div class="cool container-fluid"></div>
-  
+    <div class="cool container-fluid"></div>
+    
     <h1 class="title_topic"><?php the_title();?></h1>
- 
+    <section class="categories pt-5 ">
+        <div class="rowing">
+          <div class="categories__col col-lg col-sm-12 ">
+            <div class="photo1"></div>
+          </div>
+          <div class="categories__col col-lg col-sm-12">
+              <h2 class="text-white">Design</h2>
+              <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+          </div>
+        </div>
+        <div class="rowing">
+          <div class="categories__col col-lg col-sm-12">
+            <h2 class="text-white">Design</h2>
+            <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+          </div>
+          <div class="categories__col col-lg col-sm-12 ">
+            <div class="photo1"></div>
+          </div>
+        </div>
+        <div class="rowing">
+          <div class="categories__col col-lg col-sm-12 ">
+            <div class="photo1"></div>
+          </div>
+          <div class="categories__col col-lg col-sm-12">
+              <h2 class="text-white">Design</h2>
+              <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+          </div>
+        </div>
+        <div class="rowing">
+          <div class="categories__col col-lg col-sm-12">
+            <h2 class="text-white">Design</h2>
+            <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+          </div>
+          <div class="categories__col col-lg col-sm-12 ">
+            <div class="photo1"></div>
+          </div>
+        </div>
+        <div class="rowing">
+          <div class="categories__col col-lg col-sm-12 ">
+            <div class="photo1"></div>
+          </div>
+          <div class="categories__col col-lg col-sm-12">
+              <h2 class="text-white">Design</h2>
+              <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+          </div>
+        </div>
+        <div class="rowing">
+          <div class="categories__col col-lg col-sm-12">
+            <h2 class="text-white">Design</h2>
+            <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+          </div>
+          <div class="categories__col col-lg col-sm-12 ">
+            <div class="photo1"></div>
+          </div>
+        </div>
+        <div class="rowing">
+          <div class="categories__col col-lg col-sm-12 ">
+            <div class="photo1"></div>
+          </div>
+          <div class="categories__col col-lg col-sm-12">
+              <h2 class="text-white">Design</h2>
+              <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+          </div>
+        </div>
+        <div class="rowing">
+          <div class="categories__col col-lg col-sm-12">
+            <h2 class="text-white">Design</h2>
+            <p class="text-white">We will help you create a website branding that is tailored to your business.</p>
+          </div>
+          <div class="categories__col col-lg col-sm-12 ">
+            <div class="photo1"></div>
+          </div>
+        </div>
+    </section>
+
   <?php
         while(have_posts()){
             the_post();?>
