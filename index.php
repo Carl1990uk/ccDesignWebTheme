@@ -14,33 +14,41 @@ get_header();
   echo $title;
   ?></h1>
   
-    <div class="write2">
-
-        <?php
-        while(have_posts()){
-            the_post();?>
-        <div class="write2_text post-item">
-            <h2 class="blog_title"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
-            
-            <div class="metabox">
-                <p>Posted on <?php the_time('F j Y'); ?>  in <?php echo get_the_category_list(',' ); ?></p>
-            </div>
-            <div class="container">
+  <div class="container-fluid con-col">
+    
+            <div class="row">
             <?php
-            the_excerpt(); ?>
+        while(have_posts()){
+        the_post();?>
+            <div class="col-sm-6">
+                <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center new_title"><a href="<?php the_permalink(); ?>"><?php the_title();?></h5>
+                    <div class="metabox">
+                        <p>Posted on <?php the_time('F j Y'); ?>  in <?php echo get_the_category_list(',' ); ?></p>
+                    </div>
+                    <p class="card-text"><?php the_excerpt(); ?></p>
+                    <div class="metabox">
+                        <a class="btn btn--blue" href="<?php the_permalink(); ?>">continue reading...</a>
+                    </div>
+                </div>
+                </div>
             </div>
-            <p><a class="btn btn--blue" href="<?php the_permalink(); ?>">continue reading...</a></p><hr>
-        <?php
-        }
-        echo paginate_links();
-        ?>
-        </div>
-        </div>
-    </div>
-</div>
+            <?php
+                    }
+                    echo paginate_links();
+                    ?>
+            </div>
+                </div>
+          
+    
+ 
+
+
     
 
 
- <?php
-    get_footer();
-?>
+
+<?php
+get_footer();
+?> 

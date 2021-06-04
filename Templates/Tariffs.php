@@ -18,7 +18,7 @@ get_header();
   echo $title;
   ?></h1>
   
-  </div>
+  
     <div class="write2">
 
         <?php
@@ -33,9 +33,9 @@ get_header();
        
         
         </div>
-        </div>
     </div>
-</div>
+
+
     
 
 
@@ -45,3 +45,4 @@ get_header();
 <?php
 get_footer();
 ?>
+</div>
