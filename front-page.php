@@ -87,9 +87,9 @@ get_header();
         </div>
     </section>
   <!-- <div class="art"></div> -->
-  <div class="full-width-split group">
-      <div class=" full-width-split__one">
-          <div class="full-width-split__inner">
+  <div class="full-width-split group" >
+      <div class=" full-width-split__one" >
+          <div class="full-width-split__inner" style="overflow:hidden">
               <h2 class="headline headline--small-plus t-center">Latest Blog</h2>
               <?php
                 $homepagePosts = new WP_Query(array(
@@ -113,8 +113,8 @@ get_header();
               <p class="t-center no-margin"><a href="http://ccdesignweb.com/blog" class="btn btn--blue">View All Blog Posts</a></p>
           </div>
       </div>
-            <div class="full-width-split__two ">
-              <div class="full-width-split__inner ">
+            <div class="full-width-split__two " style="overflow:hidden">
+              <div class="full-width-split__inner" style="overflow:hidden">
               <h2 class="headline headline--small-plus t-center">Latest Work</h2>
               <?php
                     $homepageEvents = new WP_Query(array(
@@ -136,7 +136,7 @@ get_header();
      
             
           </div>
-            
+                    </div>
       </div>
 
 

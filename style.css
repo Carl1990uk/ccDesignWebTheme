@@ -8,18 +8,36 @@ Version: 1.0
 html{
     height: 100%;
     font-family: 'roboto';
-    overflow: scroll !important;
+    overflow-anchor: auto !important;
 }
 body{
     height: 100%;
-    position: relative;
     font-family: 'roboto';
-    overflow-y: initial !important;
+    overflow-x: hidden;
 }
 html body{
     overflow-y: scroll !important;
 }
-
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(49,44,101,1) gold;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgba(49,44,101,1);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: gold;
+    border-radius: 20px;
+    border: 3px solid rgba(49,44,101,1);
+  }
 #main{
     background: rgb(12,12,12);
     background: linear-gradient(90deg, rgba(12,12,12,0.991567488811931) 35%, rgba(49,44,101,1) 62%);
@@ -251,9 +269,7 @@ ul li{
 .full-width-split__inner{
     overflow: scroll;
 }
-::-webkit-scrollbar {
-    display: none !important;
-}
+
 /* Blog and latest work */
 @media (min-width: 960px) {
     .full-width-split {
