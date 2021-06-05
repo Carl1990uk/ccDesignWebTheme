@@ -1,4 +1,8 @@
 <?php
+
+/*
+    Template name: Frontfr
+*/
 get_header();
 ?>
   <div id="main">
@@ -18,8 +22,8 @@ get_header();
             <div class="photo1"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white text-center mt-5">Design</h2>
-              <p class="text-white text-center cent-text mt-5">We will help you create a website branding that is tailored to your business.</p>
+              <h2 class="text-white text-center mt-5">Conception</h2>
+              <p class="text-white text-center cent-text mt-5">nous vous aiderons à créer une image de marque de site Web adaptée à votre entreprise.</p>
           </div>
         </div>
         <div class="rowing potatoing">
@@ -36,14 +40,14 @@ get_header();
             <div class="photo3"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white text-center mt-5">Security</h2>
-              <p class="text-white text-center mt-5">All websites come with a SSL certificate</p>
+              <h2 class="text-white text-center mt-5">Sécurité</h2>
+              <p class="text-white text-center mt-5">tous les sites Web sont livrés avec un certificat SSL.</p>
           </div>
         </div>
         <div class="rowing potatoing">
           <div class="categories__col col-lg col-sm-12">
             <h2 class="text-white text-center mt-5">Hosting</h2>
-            <p class="text-white text-center mt-5">Good hosting is essential and we will deal the hosting on your behalf</p>
+            <p class="text-white text-center mt-5">Un bon hosting est essentiel et nous nous occuperons de l’hosting en votre nom.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo4"></div>
@@ -54,14 +58,14 @@ get_header();
             <div class="photo5"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white text-center mt-5">Easy use</h2>
-              <p class="text-white text-center mt-5">After the website is published, you will have access to the WordPress CMS, and will have full power to edit your site as you please.</p>
+              <h2 class="text-white text-center mt-5">Utilisation facile</h2>
+              <p class="text-white text-center mt-5">une fois le site Web publié, vous aurez accès au CMS WordPress et disposerez de tous les pouvoirs pour modifier votre site à votre guise.</p>
           </div>
         </div>
         <div class="rowing potatoing">
           <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white text-center mt-5">Tech help</h2>
-            <p class="text-white text-center mt-5">Once you become a client of Designweb, you will receive full technical maintenance including backups, advice and much more.</p>
+            <h2 class="text-white text-center mt-5">Sur appel</h2>
+            <p class="text-white text-center mt-5">une fois que vous devenez client de Designweb, vous bénéficierez d’une maintenance technique complète comprenant des sauvegardes, des conseils et bien plus encore.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo6"></div>
@@ -72,14 +76,14 @@ get_header();
             <div class="photo7"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white text-center mt-5">Search engine optimization (SEO)</h2>
-              <p class="text-white text-center mt-5">SEO is the process of improving your traffic to your website by search engines, such as google. Your website will be indexed, thus search engines such as google will be able to find you!</p>
+              <h2 class="text-white text-center mt-5">Optimisation pour les moteurs de recherche (SEO):</h2>
+              <p class="text-white text-center mt-5">le référencement est le processus d’amélioration de votre trafic vers votre site Web par les moteurs de recherche, tels que Google. Votre site Web sera indexé, ainsi les moteurs de recherche tels que Google pourront vous trouver!</p>
           </div>
         </div>
         <div class="rowing potatoing">
           <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white text-center mt-5">Domain</h2>
-            <p class="text-white text-center mt-5">Not forgetting the most important part, we will help you find the perfect name for your business.</p>
+            <h2 class="text-white text-center mt-5">Domaine</h2>
+            <p class="text-white text-center mt-5">sans oublier la partie la plus importante, nous vous aiderons à trouver le nom parfait pour votre entreprise.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo8"></div>
@@ -90,7 +94,7 @@ get_header();
   <div class="full-width-split group">
       <div class=" full-width-split__one">
           <div class="full-width-split__inner">
-              <h2 class="headline headline--small-plus t-center">Latest Blog</h2>
+              <h2 class="headline headline--small-plus t-center">Dernier blog</h2>
               <?php
                 $homepagePosts = new WP_Query(array(
                   'posts_per_page' => 2
@@ -104,18 +108,18 @@ get_header();
                     </a>
                     <div class="event-summary__content">
                       <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h5>
-                      <p><?php echo wp_trim_words(get_the_content(), 18); ?> <a href="<?php the_permalink();?>" class="nu gray">Read more</a></p>
+                      <p><?php echo wp_trim_words(get_the_content(), 18); ?> <a href="<?php the_permalink();?>" class="nu gray">Lire la suite</a></p>
                     </div>
                 </div>
                 
                 <?php }
               ?>
-              <p class="t-center no-margin"><a href="http://ccdesignweb.com/blog" class="btn btn--blue">View All Blog Posts</a></p>
+              <p class="t-center no-margin"><a href="http://ccdesignweb.com/blog" class="btn btn--blue">Voir tous les Articles de Blog</a></p>
           </div>
       </div>
             <div class="full-width-split__two ">
               <div class="full-width-split__inner ">
-              <h2 class="headline headline--small-plus t-center">Latest Work</h2>
+              <h2 class="headline headline--small-plus t-center">Dernier Ouvrage</h2>
               <?php
                     $homepageEvents = new WP_Query(array(
                       'posts_per_page' => 1,
@@ -127,7 +131,7 @@ get_header();
 
                     <div class="pic-gallery"><?php the_post_thumbnail('port2');?> </div>
                     
-            <p class="t-center no-margin"><a href="http://ccdesignweb.com/portfolio" class="btn btn--yellow">View More Work</a></p>
+            <p class="t-center no-margin"><a href="http://ccdesignweb.com/portfolio" class="btn btn--yellow">Voir plus de Travail</a></p>
           </div>
           
       </div>

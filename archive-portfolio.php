@@ -12,50 +12,47 @@ get_header();
   <div class="logo"></div>
   <div class="cool container-fluid"></div>
   <h1 class="title_topic">Portfolio</h1>
-        <div class="write2 main">
-            <div class="write2_text post-item">
-               <!-- <h2 class="blog_title"><?php the_title(); ?></h2>
-               <div class="metabox">
-                   <p>Created on: <?php the_time('F j Y'); ?> </p>
-               </div>
-               <div class="pic-gallery"><?php the_post_thumbnail('port2'); ?> </div> <hr> -->
-       
-            
-            <?php
         
-        echo paginate_links();
-        ?>
-        
-        <div class="row">
-        <?php
-                while(have_posts()){
-                    the_post();?>
-            <div class="column">
-                <div class="content">
-                    <div><?php the_post_thumbnail('port2'); ?></div>
-                    <div class="metabox">
-                        <p>Created on: <?php the_time('F j Y');?></p>
-                    </div>
-                    <p><?php the_content();?></p>
-                </div>
-            </div>
-                    <?php
-                }
-                ?>
         
        
         
        
                     
                 
-       
+        <div class="container-fluid con-col">
+    
+    <div class="row">
+    <?php
+while(have_posts()){
+the_post();?>
+    <div class="col-sm-6">
+        <div class="card">
+        <img class="card-img-top" src="<?php the_post_thumbnail('port2'); ?>">
+        <div class="card-body">
+            <h5 class="card-title text-center new_title"><p class="card-text"><?php the_content(); ?></p></h5>
+            <div class="metabox">
+            <p>Created on: <?php the_time('F j Y');?></p>
+            </div>
+            
+            
+        </div>
         </div>
     </div>
-</div>
-</div>
-    
+    <?php
+            }
+            echo paginate_links();
+            ?>
+        </div>
+    </div>
+  
 
 
- <?php
-    get_footer();
-?>
+
+
+
+
+
+
+<?php
+get_footer();
+?> 
