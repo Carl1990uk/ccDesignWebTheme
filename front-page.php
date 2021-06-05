@@ -43,7 +43,7 @@ get_header();
         <div class="rowing potatoing">
           <div class="categories__col col-lg col-sm-12">
             <h2 class="text-white text-center mt-5">Hosting</h2>
-            <p class="text-white text-center mt-5"><strong>Hosting is essential</strong>, we can deal with this on your behalf</p>
+            <p class="text-white text-center mt-5">Hosting is essential, we can deal with this on your behalf</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo4" loading="lazy"></div>
