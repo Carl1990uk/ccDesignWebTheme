@@ -15,7 +15,7 @@ get_header();
     <section class="categories pt-5 ">
         <div class="rowing">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1"></div>
+            <div class="photo1" loading="lazy"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Design</h2>
@@ -28,12 +28,12 @@ get_header();
             <p class="text-white text-center mt-5">With all packages your website will be viewable from iPads and tablets to phones and obviously laptop/computers.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo2"></div>
+            <div class="photo2" loading="lazy"></div>
           </div>
         </div>
         <div class="rowing">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo3"></div>
+            <div class="photo3" loading="lazy"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Security</h2>
@@ -43,15 +43,15 @@ get_header();
         <div class="rowing potatoing">
           <div class="categories__col col-lg col-sm-12">
             <h2 class="text-white text-center mt-5">Hosting</h2>
-            <p class="text-white text-center mt-5">Good hosting is essential and we will deal the hosting on your behalf</p>
+            <p class="text-white text-center mt-5"><strong>Hosting is essential</strong>, we can deal with this on your behalf</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo4"></div>
+            <div class="photo4" loading="lazy"></div>
           </div>
         </div>
         <div class="rowing">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo5"></div>
+            <div class="photo5" loading="lazy"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Easy use</h2>
@@ -64,12 +64,12 @@ get_header();
             <p class="text-white text-center mt-5">Once you become a client of Designweb, you will receive full technical maintenance including backups, advice and much more.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo6"></div>
+            <div class="photo6" loading="lazy"></div>
           </div>
         </div>
         <div class="rowing">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo7"></div>
+            <div class="photo7" loading="lazy"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Search engine optimization (SEO)</h2>
@@ -82,7 +82,7 @@ get_header();
             <p class="text-white text-center mt-5">Not forgetting the most important part, we will help you find the perfect name for your business.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo8"></div>
+            <div class="photo8" loading="lazy"></div>
           </div>
         </div>
     </section>
@@ -138,7 +138,7 @@ get_header();
           </div>
             
       </div>
-  </div>
+
 
 
  <?php
