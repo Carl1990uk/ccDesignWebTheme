@@ -12,28 +12,28 @@ get_header();
     <div class="cool container-fluid"></div>
     
     <h1 class="title_topic"><?php the_title();?></h1>
-    <section class="categories pt-5 ">
-        <div class="rowing">
+    <section class="categories pt-5">
+        <div class="rowing potatoing">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1" loading="lazy"></div>
+            <div class="photo1"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white text-center mt-5">Design</h2>
-              <p class="text-white text-center cent-text mt-5">We will help you create a website branding that is tailored to your business.</p>
+            <h2 class="text-white text-center mt-5">Design</h2>
+            <p class="text-white text-center center-text mt-5">We will help you create a website branding that is tailored to your business.</p>
           </div>
         </div>
         <div class="rowing potatoing">
           <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white text-center mt-5">Responsive</h2>
-            <p class="text-white text-center mt-5">With all packages your website will be viewable from iPads and tablets to phones and obviously laptop/computers.</p>
+              <h2 class="text-white text-center mt-5">Responsive</h2>
+              <p class="text-white text-center center-text mt-5">With all packages your website will be viewable from iPads and tablets to phones and obviously laptop/computers.</p>
           </div>
-          <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo2" loading="lazy"></div>
+          <div class="categories_col col-lg col-sm-12 ">
+            <div class="photo2"></div>
           </div>
         </div>
-        <div class="rowing">
+        <div class="rowing ">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo3" loading="lazy"></div>
+            <div class="photo3"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Security</h2>
@@ -46,12 +46,12 @@ get_header();
             <p class="text-white text-center mt-5">Hosting is essential, we can deal with this on your behalf</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo4" loading="lazy"></div>
+            <div class="photo4"></div>
           </div>
         </div>
         <div class="rowing">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo5" loading="lazy"></div>
+            <div class="photo5"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Easy use</h2>
@@ -64,12 +64,12 @@ get_header();
             <p class="text-white text-center mt-5">Once you become a client of Designweb, you will receive full technical maintenance including backups, advice and much more.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo6" loading="lazy"></div>
+            <div class="photo6"></div>
           </div>
         </div>
         <div class="rowing">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo7" loading="lazy"></div>
+            <div class="photo7"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Search engine optimization (SEO)</h2>
@@ -82,7 +82,7 @@ get_header();
             <p class="text-white text-center mt-5">Not forgetting the most important part, we will help you find the perfect name for your business.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo8" loading="lazy"></div>
+            <div class="photo8"></div>
           </div>
         </div>
     </section>
@@ -136,7 +136,7 @@ get_header();
      
             
           </div>
-                    </div>
+        </div>
       </div>
 
 
