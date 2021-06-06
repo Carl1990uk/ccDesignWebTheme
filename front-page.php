@@ -11,7 +11,7 @@ get_header();
     <!-- </div> -->
     <div class="cool container-fluid"></div>
     
-    <h1 class="title_topic"><?php the_title();?></h1>
+    
     <section class="categories pt-5">
         <div class="rowing potatoing" >
           <div class="categories__col col-lg col-sm-12 ">
