@@ -14,7 +14,7 @@ get_header();
   echo $title;
   ?></h1>
   
-  <div class="container-fluid ">
+  <div class="container ">
     
             <?php
         while(have_posts()){

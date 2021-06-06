@@ -27,7 +27,7 @@ get_header();
                     <div class="metabox">
                         <p>Posted on <?php the_time('F j Y'); ?>  in <?php echo get_the_category_list(',' ); ?></p>
                     </div>
-                    <p class="card-text"><?php the_excerpt(); ?></p>
+                    <p class="card-text"><?php echo wp_trim_words(get_the_content(), 18); ?></p>
                     <div class="metabox">
                         <a class="btn btn--blue" href="<?php the_permalink(); ?>">continue reading...</a>
                     </div>
