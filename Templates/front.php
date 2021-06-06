@@ -6,10 +6,10 @@
 get_header();
 ?>
   <div id="main">
-    <div class="large_lang" >
+    <!-- <div class="large_lang" >
       <a class="large_lang_en" href="https://ccdesignweb.com/"></a>
       <a class="large_lang_fr" href="https://ccdesignweb.com/fr/home-2/"></a>
-    </div>
+    </div> -->
     <!-- <div class="par-pic1"> -->
       <div class="logo"></div>
     <!-- </div> -->
