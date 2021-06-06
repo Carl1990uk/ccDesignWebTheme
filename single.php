@@ -19,28 +19,23 @@ get_header();
             <?php
         while(have_posts()){
         the_post();?>
-     
+                    <div class="card">
                     <div class="metabox">
                         <p>Posted on <?php the_time('F j Y'); ?>  in <?php echo get_the_category_list(',' ); ?></p>
                     </div>
+                    <!-- <div class="card-img-top"><?php the_post_thumbnail('port1'); ?></div> -->
                     <div class="container pb-5 card-text"><?php the_content(); ?>
                     </div>
-  
+        </div>
                
             <?php
                     }
                     
                     ?>
             </div>
-                <!-- </div>
-                </div> -->
-    
-                
-                
-
-                
-
-                
+                          
+            
+           
                 
                 <?php
 get_footer();
