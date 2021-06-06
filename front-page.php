@@ -13,76 +13,76 @@ get_header();
     
     <h1 class="title_topic"><?php the_title();?></h1>
     <section class="categories pt-5">
-        <div class="rowing potatoing">
+        <div class="rowing potatoing" >
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1"></div>
+            <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/webdesign-3-Copy-scaled.jpg);" ></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
             <h2 class="text-white text-center mt-5">Design</h2>
             <p class="text-white text-center center-text mt-5">We will help you create a website branding that is tailored to your business.</p>
           </div>
         </div>
-        <div class="rowing">
+        <div class="rowing " >
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Responsive</h2>
               <p class="text-white text-center center-text mt-5">With all packages your website will be viewable from iPads and tablets to phones and obviously laptop/computers.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo2"></div>
+            <div class="photo2" style=" background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/mainscreen-2-scaled.jpg);"></div>
           </div>
         </div>
-        <div class="rowing potatoing ">
+        <div class="rowing potatoing  ">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo3"></div>
+            <div class="photo3" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/padlock-scaled.jpg);"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Security</h2>
               <p class="text-white text-center mt-5">All websites come with a SSL certificate</p>
           </div>
         </div>
-        <div class="rowing ">
+        <div class="rowing  " >
           <div class="categories__col col-lg col-sm-12">
             <h2 class="text-white text-center mt-5">Hosting</h2>
             <p class="text-white text-center mt-5">Hosting is essential, we can deal with this on your behalf</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo4"></div>
+            <div class="photo4" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/Servers-scaled.jpg);"></div>
           </div>
         </div>
-        <div class="rowing potatoing">
+        <div class="rowing potatoing " >
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo5"></div>
+            <div class="photo5" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/wordpress-scaled.jpg);"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Easy use</h2>
               <p class="text-white text-center mt-5">After the website is published, you will have access to the WordPress CMS, and will have full power to edit your site as you please.</p>
           </div>
         </div>
-        <div class="rowing ">
+        <div class="rowing  ">
           <div class="categories__col col-lg col-sm-12">
             <h2 class="text-white text-center mt-5">Tech help</h2>
             <p class="text-white text-center mt-5">Once you become a client of Designweb, you will receive full technical maintenance including backups, advice and much more.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo6"></div>
+            <div class="photo6" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/coding-scaled.jpg);"></div>
           </div>
         </div>
-        <div class="rowing potatoing">
+        <div class="rowing potatoing ">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo7"></div>
+            <div class="photo7" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/analyse-scaled.jpg);"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Search engine optimization (SEO)</h2>
               <p class="text-white text-center mt-5">SEO is the process of improving your traffic to your website by search engines, such as google. Your website will be indexed, thus search engines such as google will be able to find you!</p>
           </div>
         </div>
-        <div class="rowing ">
+        <div class="rowing  " >
           <div class="categories__col col-lg col-sm-12">
             <h2 class="text-white text-center mt-5">Domain</h2>
             <p class="text-white text-center mt-5">Not forgetting the most important part, we will help you find the perfect name for your business.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo8"></div>
+            <div class="photo8" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/domain-name-scaled.jpg);"></div>
           </div>
         </div>
     </section>
@@ -115,7 +115,7 @@ get_header();
       </div>
             <div class="full-width-split__two " style="overflow:hidden">
               <div class="full-width-split__inner" style="overflow:hidden">
-              <h2 class="headline headline--small-plus t-center">Latest Work</h2>
+              <h2 class="headline headline--small-plus t-center text-white">Latest Work</h2>
               <?php
                     $homepageEvents = new WP_Query(array(
                       'posts_per_page' => 1,
@@ -127,7 +127,7 @@ get_header();
 
                     <div class="pic-gallery"><?php the_post_thumbnail('port2');?> </div>
                     
-            <p class="t-center no-margin"><a href="http://ccdesignweb.com/portfolio" class="btn btn--yellow">View More Work</a></p>
+            <p class="t-center no-margin"><a href="http://ccdesignweb.com/portfolio" class="btn btn--yellow text-white">View More Work</a></p>
           </div>
           
       </div>
