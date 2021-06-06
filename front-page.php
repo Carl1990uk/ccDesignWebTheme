@@ -15,7 +15,7 @@ get_header();
     <section class="categories pt-5">
         <div class="rowing potatoing" >
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/webdesign-3-Copy-scaled.jpg);" ></div>
+            <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/webdesign-_3_-scaled.jpeg);" ></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
             <h2 class="text-white text-center mt-5">Design</h2>
@@ -28,12 +28,12 @@ get_header();
               <p class="text-white text-center center-text mt-5">With all packages your website will be viewable from iPads and tablets to phones and obviously laptop/computers.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo2" style=" background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/mainscreen-2-scaled.jpg);"></div>
+            <div class="photo1" style=" background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/mainscreen-_2_-scaled.jpeg);"></div>
           </div>
         </div>
         <div class="rowing potatoing  ">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo3" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/padlock-scaled.jpg);"></div>
+            <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/padlock-scaled.jpeg);"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Security</h2>
@@ -46,12 +46,12 @@ get_header();
             <p class="text-white text-center mt-5">Hosting is essential, we can deal with this on your behalf</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo4" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/Servers-scaled.jpg);"></div>
+            <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/Servers-scaled.jpeg);"></div>
           </div>
         </div>
         <div class="rowing potatoing " >
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo5" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/wordpress-scaled.jpg);"></div>
+            <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/wordpress-scaled.jpeg);"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Easy use</h2>
@@ -64,12 +64,12 @@ get_header();
             <p class="text-white text-center mt-5">Once you become a client of Designweb, you will receive full technical maintenance including backups, advice and much more.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo6" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/coding-scaled.jpg);"></div>
+            <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/coding-scaled.jpeg);"></div>
           </div>
         </div>
         <div class="rowing potatoing ">
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo7" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/analyse-scaled.jpg);"></div>
+            <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/analyse_1-scaled.jpeg);"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
               <h2 class="text-white text-center mt-5">Search engine optimization (SEO)</h2>
@@ -82,8 +82,8 @@ get_header();
             <p class="text-white text-center mt-5">Not forgetting the most important part, we will help you find the perfect name for your business.</p>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
-            <div class="photo8" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/domain-name-scaled.jpg);"></div>
-          </div>
+            <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/domain-name-scaled.jpeg);"></div>
+          </div> 
         </div>
     </section>
   <!-- <div class="art"></div> -->
