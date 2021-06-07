@@ -74,7 +74,7 @@ get_header();
                     <tr><td>Domain name &amp; Hosting</td><td>&#x2713;</td></tr>
                     <tr><td>pages included in website</td><td>10 pages</td></tr>
                     <tr><td>Email Address with Domain ending:</td><td>option</td></tr>
-                    <tr><td>viewable on different screens</td><td>&#x271;</td></tr>
+                    <tr><td>viewable on different screens</td><td>&#x273;</td></tr>
                     <tr><td>Search Engines (SEO)</td><td>&#x2713;</td></tr>
                     <tr><td>Year round Technical maintance:</td><td>&#x2713;</td></tr>
                     <tr><td>Language package</td><td>&#x2713;</td></tr>
