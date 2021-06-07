@@ -27,8 +27,8 @@
       'items_wrap' => '<ul id="" class="topNav">%3$s</ul>'
     ));
   ?>
-    <button class="navbar-toggler navbut" onclick="toggleNav()" type="button" data-bs-toggle="collapse" data-bs-target="dropnav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <!-- <button class="navbut" onclick="toggleNav()" type="button"data-target="dropnav"> -->
+    <!-- <button class="navbar-toggler navbut" onclick="toggleNav()" type="button" data-bs-toggle="collapse" data-bs-target="dropnav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+    <button class="navbut" onclick="toggleNav()" type="button"data-target="dropnav">
     <span class="navbar-toggler-icon" style="z-index: 1030"><i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i></span>
       
   </button>

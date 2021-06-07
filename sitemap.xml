@@ -6,7 +6,124 @@
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
+<url><?xml version="1.0" encoding="UTF-8"?>
+<urlset>
 <url>
+  <loc>https://ccdesignweb.com/</loc>
+  <lastmod>2021-06-07T07:41:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/portfolio/</loc>
+  <lastmod>2021-06-07T07:44:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/tariffs/</loc>
+  <lastmod>2021-06-07T07:44:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/blog/</loc>
+  <lastmod>2021-06-07T07:44:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/contact/</loc>
+  <lastmod>2021-06-07T07:44:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/fr/home-2/</loc>
+  <lastmod>2021-06-07T07:44:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/creating-your-website/</loc>
+  <lastmod>2021-06-07T07:44:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/welcome/</loc>
+  <lastmod>2021-06-07T07:44:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/privacy/</loc>
+  <lastmod>2021-06-07T07:44:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/careers/</loc>
+  <lastmod>2021-06-07T07:44:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/portfolio</loc>
+  <lastmod>2021-06-07T07:44:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/tariffs</loc>
+  <lastmod>2021-06-07T07:44:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/fr/tarifs/</loc>
+  <lastmod>2021-06-07T07:44:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/fr/blog-2/</loc>
+  <lastmod>2021-06-07T07:44:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/category/info/</loc>
+  <lastmod>2021-06-07T07:44:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/contact</loc>
+  <lastmod>2021-06-07T07:44:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/fr/contact-2/</loc>
+  <lastmod>2021-06-07T07:44:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/fr/creation-de-votre-site-web/</loc>
+  <lastmod>2021-06-07T07:44:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/fr/bonjour-a-tous/</loc>
+  <lastmod>2021-06-07T07:44:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/fr/intimite/</loc>
+  <lastmod>2021-06-07T07:44:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/fr/postes-vacants/</loc>
+  <lastmod>2021-06-07T07:44:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/fr/category/info-fr/</loc>
+  <lastmod>2021-06-07T07:44:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ccdesignweb.com/fr/category/uncategorized-fr/</loc>
+  <lastmod>2021-06-07T07:44:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+</urlset>
   <loc>https://ccdesignweb.com/portfolio/</loc>
   <lastmod>2021-05-29T13:20:02+00:00</lastmod>
   <changefreq>weekly</changefreq>

@@ -72,11 +72,11 @@ $phone = $number;
 else if ($_POST['submitted']) my_contact_form_generate_response("error", $missing_content);
 ?>
   <div id="main">
-    <!-- <div class="large_lang " >
+    <div class="large_lang " >
       <a class="large_lang_en" href="https://ccdesignweb.com/contact"></a>
       <a class="large_lang_fr" href="https://ccdesignweb.com/fr/contact-2/"></a>
-    </div> -->
-  <div class="logo"></div>
+    </div>
+    <div class="logo" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/long-logo-2-scaled.jpg);"></div>
   <div class="cool container-fluid"></div>
   <h1 class="title_topic">Contact Us</h1>
   
