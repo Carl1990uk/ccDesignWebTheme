@@ -74,7 +74,7 @@ get_header();
                     <tr><td>Nom de domaine et &amp; Hosting</td><td>&#x2713;</td></tr>
                     <tr><td>pages included in website</td><td>10 pages</td></tr>
                     <tr><td>E-mail avec domaine se terminant</td><td>option disponible</td></tr>
-                    <tr><td>Visible sur différents écrans</td><td>&#x273;</td></tr>
+                    <tr><td>Visible sur différents écrans</td><td>&#x2713;</td></tr>
                     <tr><td>Optimisation du moteur de recherche</td><td>&#x2713;</td></tr>
                     <tr><td>Maintenance technique toute l’année:</td><td>&#x2713;</td></tr>
                     <tr><td>Paquet de langue</td><td>&#x2713;</td></tr>
