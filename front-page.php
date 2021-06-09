@@ -24,8 +24,6 @@ get_header();
         <div class="rowing " >
           <div class="categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('Responsive_widget');?> <?php dynamic_sidebar('Responsive_widget_fr');?>
-              <!-- <h2 class="text-white text-center mt-5">Responsive</h2>
-              <p class="text-white text-center center-text mt-5">With all packages your website will be viewable from iPads and tablets to phones and obviously laptop/computers.</p> -->
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style=" background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/mainscreen-_2_-scaled.jpeg);"></div>
@@ -64,8 +62,6 @@ get_header();
         <div class="rowing  ">
           <div class="categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('tech_widget');?> <?php dynamic_sidebar('tech_widget_fr');?>
-            <!-- <h2 class="text-white text-center mt-5">Tech help</h2>
-            <p class="text-white text-center mt-5">Once you become a client of Designweb, you will receive full technical maintenance including backups, advice and much more.</p> -->
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/coding-scaled.jpeg);"></div>
@@ -77,8 +73,6 @@ get_header();
           </div>
           <div class="categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('SEO_widget');?> <?php dynamic_sidebar('SEO_widget_fr');?>
-              <!-- <h2 class="text-white text-center mt-5">Search engine optimization (SEO)</h2>
-              <p class="text-white text-center mt-5">SEO is the process of improving your traffic to your website by search engines, such as google. Your website will be indexed, thus search engines such as google will be able to find you!</p> -->
           </div>
         </div>
         <div class="rowing  " >

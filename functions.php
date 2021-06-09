@@ -236,7 +236,7 @@ function custom_front_page_widget(){
     register_sidebar($args);
      //Domain
      $args = array(
-        'id' => 'Domain_widget',
+        'id' => 'domain_widget',
         'name' => __('Domain widget', 'text_domain'),
         'description' => __('Domain widget', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
@@ -246,7 +246,7 @@ function custom_front_page_widget(){
     );
     register_sidebar($args);
     $args = array(
-        'id' => 'Domain_widget_fr',
+        'id' => 'domain_widget_fr',
         'name' => __('Domain widget fr', 'text_domain'),
         'description' => __('Domain widget fr', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
