@@ -18,14 +18,14 @@ get_header();
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/webdesign-_3_-scaled.jpeg);" ></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white text-center mt-5">Design</h2>
-            <p class="text-white text-center center-text mt-5">We will help you create a website branding that is tailored to your business.</p>
+            <?php dynamic_sidebar('design_widget');?> <?php dynamic_sidebar('design_widget_fr');?>
           </div>
         </div>
         <div class="rowing " >
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white text-center mt-5">Responsive</h2>
-              <p class="text-white text-center center-text mt-5">With all packages your website will be viewable from iPads and tablets to phones and obviously laptop/computers.</p>
+          <?php dynamic_sidebar('Responsive_widget');?> <?php dynamic_sidebar('Responsive_widget_fr');?>
+              <!-- <h2 class="text-white text-center mt-5">Responsive</h2>
+              <p class="text-white text-center center-text mt-5">With all packages your website will be viewable from iPads and tablets to phones and obviously laptop/computers.</p> -->
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style=" background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/mainscreen-_2_-scaled.jpeg);"></div>
@@ -36,14 +36,16 @@ get_header();
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/padlock-scaled.jpeg);"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white text-center mt-5">Security</h2>
-              <p class="text-white text-center mt-5">All websites come with a SSL certificate</p>
+          <?php dynamic_sidebar('security_widget');?> <?php dynamic_sidebar('security_widget_fr');?>
+              <!-- <h2 class="text-white text-center mt-5">Security</h2>
+              <p class="text-white text-center mt-5">All websites come with a SSL certificate</p> -->
           </div>
         </div>
         <div class="rowing  " >
           <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white text-center mt-5">Hosting</h2>
-            <p class="text-white text-center mt-5">Hosting is essential, we can deal with this on your behalf</p>
+          <?php dynamic_sidebar('hosting_widget');?> <?php dynamic_sidebar('hosting_widget_fr');?>
+            <!-- <h2 class="text-white text-center mt-5">Hosting</h2>
+            <p class="text-white text-center mt-5">Hosting is essential, we can deal with this on your behalf</p> -->
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/Servers-scaled.jpeg);"></div>
@@ -54,14 +56,16 @@ get_header();
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/wordpress-scaled.jpeg);"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white text-center mt-5">Easy use</h2>
-              <p class="text-white text-center mt-5">After the website is published, you will have access to the WordPress CMS, and will have full power to edit your site as you please.</p>
+          <?php dynamic_sidebar('easy_use_widget');?> <?php dynamic_sidebar('easy_use_widget_fr');?>
+              <!-- <h2 class="text-white text-center mt-5">Easy use</h2>
+              <p class="text-white text-center mt-5">After the website is published, you will have access to the WordPress CMS, and will have full power to edit your site as you please.</p> -->
           </div>
         </div>
         <div class="rowing  ">
           <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white text-center mt-5">Tech help</h2>
-            <p class="text-white text-center mt-5">Once you become a client of Designweb, you will receive full technical maintenance including backups, advice and much more.</p>
+          <?php dynamic_sidebar('tech_widget');?> <?php dynamic_sidebar('tech_widget_fr');?>
+            <!-- <h2 class="text-white text-center mt-5">Tech help</h2>
+            <p class="text-white text-center mt-5">Once you become a client of Designweb, you will receive full technical maintenance including backups, advice and much more.</p> -->
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/coding-scaled.jpeg);"></div>
@@ -72,14 +76,16 @@ get_header();
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/analyse_1-scaled.jpeg);"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-              <h2 class="text-white text-center mt-5">Search engine optimization (SEO)</h2>
-              <p class="text-white text-center mt-5">SEO is the process of improving your traffic to your website by search engines, such as google. Your website will be indexed, thus search engines such as google will be able to find you!</p>
+          <?php dynamic_sidebar('SEO_widget');?> <?php dynamic_sidebar('SEO_widget_fr');?>
+              <!-- <h2 class="text-white text-center mt-5">Search engine optimization (SEO)</h2>
+              <p class="text-white text-center mt-5">SEO is the process of improving your traffic to your website by search engines, such as google. Your website will be indexed, thus search engines such as google will be able to find you!</p> -->
           </div>
         </div>
         <div class="rowing  " >
           <div class="categories__col col-lg col-sm-12">
-            <h2 class="text-white text-center mt-5">Domain</h2>
-            <p class="text-white text-center mt-5">Not forgetting the most important part, we will help you find the perfect name for your business.</p>
+          <?php dynamic_sidebar('domain_widget');?> <?php dynamic_sidebar('domain_widget_fr');?>
+            <!-- <h2 class="text-white text-center mt-5">Domain</h2>
+            <p class="text-white text-center mt-5">Not forgetting the most important part, we will help you find the perfect name for your business.</p> -->
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/domain-name-scaled.jpeg);"></div>

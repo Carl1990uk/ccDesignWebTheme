@@ -85,4 +85,176 @@ function remove_wpseo() {
         remove_action( 'wpseo_head', [ $front_end, 'present_head' ], -9999 );
     }
 }
+
+function custom_front_page_widget(){
+    // Design
+    $args = array(
+        'id' => 'design_widget',
+        'name' => __('Design widget', 'text_domain'),
+        'description' => __('Design widget', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'design_widget_fr',
+        'name' => __('Design widget fr', 'text_domain'),
+        'description' => __('Design widget fr', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    //Responsive
+    $args = array(
+        'id' => 'Responsive_widget',
+        'name' => __('Responsive widget', 'text_domain'),
+        'description' => __('Responsive widget', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'Responsive_widget_fr',
+        'name' => __('Responsive widget fr', 'text_domain'),
+        'description' => __('Responsive widget fr', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    //Security
+    $args = array(
+        'id' => 'security_widget',
+        'name' => __('security widget', 'text_domain'),
+        'description' => __('security widget', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'security_widget_fr',
+        'name' => __('security widget fr', 'text_domain'),
+        'description' => __('security widget fr', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    //Hosting
+    $args = array(
+        'id' => 'hosting_widget',
+        'name' => __('hosting widget', 'text_domain'),
+        'description' => __('hosting widget', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'hosting_widget_fr',
+        'name' => __('hosting widget fr', 'text_domain'),
+        'description' => __('hosting widget fr', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    //Easy use
+    $args = array(
+        'id' => 'easy_use_widget',
+        'name' => __('easy use widget', 'text_domain'),
+        'description' => __('easy use widget', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'easy_use_widget_fr',
+        'name' => __('easy use widget fr', 'text_domain'),
+        'description' => __('easy use widget fr', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    //tech
+    $args = array(
+        'id' => 'tech_widget',
+        'name' => __('tech widget', 'text_domain'),
+        'description' => __('tech widget', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'tech_widget_fr',
+        'name' => __('tech widget fr', 'text_domain'),
+        'description' => __('tech widget fr', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    //SEO
+    $args = array(
+        'id' => 'SEO_widget',
+        'name' => __('SEO widget', 'text_domain'),
+        'description' => __('SEO widget', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'SEO_widget_fr',
+        'name' => __('SEO widget fr', 'text_domain'),
+        'description' => __('SEO widget fr', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+     //Domain
+     $args = array(
+        'id' => 'Domain_widget',
+        'name' => __('Domain widget', 'text_domain'),
+        'description' => __('Domain widget', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'Domain_widget_fr',
+        'name' => __('Domain widget fr', 'text_domain'),
+        'description' => __('Domain widget fr', 'text_domain'),
+        'before_title' => '<h2 class="text-white text-center mt-5">',
+        'after_title' => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+}
+add_action('widgets_init', 'custom_front_page_widget');
 ?>
