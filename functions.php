@@ -94,38 +94,38 @@ function custom_front_page_widget(){
         'description' => __('Design widget', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
     $args = array(
-        'id' => 'design_widget_fr',
-        'name' => __('Design widget fr', 'text_domain'),
-        'description' => __('Design widget fr', 'text_domain'),
-        'before_title' => '<h2 class="text-white text-center mt-5">',
-        'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
-        'after_widget' => '</div>'
+        'id'            => 'design_widget_fr',
+        'name'          => __('Design widget fr', 'text_domain'),
+        'description'   => __('Design widget fr', 'text_domain'),
+        'before_title'  => '<h2 class="text-white text-center mt-5">',
+        'after_title'   => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
+        'after_widget'  => '</div>'
     );
     register_sidebar($args);
     //Responsive
     $args = array(
-        'id' => 'Responsive_widget',
-        'name' => __('Responsive widget', 'text_domain'),
-        'description' => __('Responsive widget', 'text_domain'),
-        'before_title' => '<h2 class="text-white text-center mt-5">',
-        'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
-        'after_widget' => '</div>'
+        'id'            => 'responsive_widget',
+        'name'          => __('Responsive widget', 'text_domain'),
+        'description'   => __('Responsive widget', 'text_domain'),
+        'before_title'  => '<h2 class="text-white text-center mt-5">',
+        'after_title'   => '</h2>',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
+        'after_widget'  => '</div>'
     );
     register_sidebar($args);
     $args = array(
-        'id' => 'Responsive_widget_fr',
+        'id' => 'responsive_widget_fr',
         'name' => __('Responsive widget fr', 'text_domain'),
         'description' => __('Responsive widget fr', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
@@ -136,7 +136,7 @@ function custom_front_page_widget(){
         'description' => __('security widget', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
@@ -146,7 +146,7 @@ function custom_front_page_widget(){
         'description' => __('security widget fr', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
@@ -157,7 +157,7 @@ function custom_front_page_widget(){
         'description' => __('hosting widget', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
@@ -167,7 +167,7 @@ function custom_front_page_widget(){
         'description' => __('hosting widget fr', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
@@ -178,7 +178,7 @@ function custom_front_page_widget(){
         'description' => __('easy use widget', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
@@ -188,7 +188,7 @@ function custom_front_page_widget(){
         'description' => __('easy use widget fr', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
@@ -199,7 +199,7 @@ function custom_front_page_widget(){
         'description' => __('tech widget', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
@@ -209,28 +209,28 @@ function custom_front_page_widget(){
         'description' => __('tech widget fr', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
     //SEO
     $args = array(
-        'id' => 'SEO_widget',
+        'id' => 'seo_widget',
         'name' => __('SEO widget', 'text_domain'),
         'description' => __('SEO widget', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
     $args = array(
-        'id' => 'SEO_widget_fr',
+        'id' => 'seo_widget_fr',
         'name' => __('SEO widget fr', 'text_domain'),
         'description' => __('SEO widget fr', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="overflow:breakword">',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
@@ -241,7 +241,7 @@ function custom_front_page_widget(){
         'description' => __('Domain widget', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
     );
     register_sidebar($args);
@@ -251,8 +251,67 @@ function custom_front_page_widget(){
         'description' => __('Domain widget fr', 'text_domain'),
         'before_title' => '<h2 class="text-white text-center mt-5">',
         'after_title' => '</h2>',
-        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5">',
+        'before_widget' => '<div id="%1$s" class="text-white text-center center-text mt-5" style="word-break: break-word";>',
         'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    //Explore
+    $args = array(
+        'id' => 'explore_widget',
+        'name' => __('Explore widget', 'text_domain'),
+        'description' => __('Explore widget', 'text_domain'),
+        'before_title' => '<h3 class="headline headline--small">',
+        'after_title' => '</h3>',
+        'before_widget' => '<div id="%1$s" class="site-footer__col-three";>',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'explore_widget_fr',
+        'name' => __('explore widget fr', 'text_domain'),
+        'description' => __('Explore widget fr', 'text_domain'),
+        'before_title' => '<h3 class="headline headline--small">',
+        'after_title' => '</h3>',
+        'before_widget' => '<div id="%1$s" class="site-footer__col-three">',
+        'after_widget' => '</div>' 
+    );
+    register_sidebar($args);
+    //Learn
+    $args = array(
+        'id' => 'learn_widget',
+        'name' => __('Learn widget', 'text_domain'),
+        'description' => __('Learn widget', 'text_domain'),
+        'before_title' => '<h3 class="headline headline--small">',
+        'after_title' => '</h3>',
+        'before_widget' => '<div id="%1$s" class="site-footer__col-three";>',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'learn_widget_fr',
+        'name' => __('Learn widget fr', 'text_domain'),
+        'description' => __('Learn widget fr', 'text_domain'),
+        'before_title' => '<h3 class="headline headline--small">',
+        'after_title' => '</h3>',
+        'before_widget' => '<div id="%1$s" class="site-footer__col-three">',
+        'after_widget' => '</div>' 
+    );
+    register_sidebar($args);
+    //foot_blog
+    $args = array(
+        'id' => 'foot_widget',
+        'name' => __('foot widget', 'text_domain'),
+        'description' => __('foot widget', 'text_domain'),
+        'before_widget' => '<div id="%1$s" class="infome">',
+        'after_widget' => '</div>'
+    );
+    register_sidebar($args);
+    $args = array(
+        'id' => 'foot_widget_fr',
+        'name' => __('foot widget fr', 'text_domain'),
+        'description' => __('foot widget fr', 'text_domain'),
+        'before_widget' => '<div id="%1$s" class="infome">',
+        'after_widget' => '</div>' 
     );
     register_sidebar($args);
 }

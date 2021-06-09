@@ -3,12 +3,9 @@
   </div>
   <footer>
       <div class="container-fluid me">
-          <div class="infome">
-            <p>
-            Founded in 2021 with a purpose of creating and maintaining websites that  are user friendly, whilst optimising the latest tools for search engines and being responsive for different screen sizes.<br> <br>
-            Here at cc<em>DesignWeb</em> we value our customers and work endlessly to ensure you have a website that reflects your buisness. 
-            </p>
-          </div>
+         
+          <?php dynamic_sidebar('foot_widget');?> <?php dynamic_sidebar('foot_widget_fr');?>
+           
           <div class="middle">
             <p>
               <!-- <em></em> -->
@@ -29,30 +26,17 @@
     
               <div class="site-footer__col-two-three-group">
                 <div class="site-footer__col-two">
-                  <h3 class="headline headline--small">Explore</h3>
+                  <!-- <h3 class="headline headline--small">Explore</h3> -->
                   <nav class="nav-list">
-                  <?php
-                      wp_nav_menu(array(
-                        'menu' => 'footer1',
-                        'container' => "",
-                        'theme_location' => 'footer1'
-                      ));
-                      ?>
+                  <?php dynamic_sidebar('explore_widget');?> <?php dynamic_sidebar('explore_widget_fr');?>
                    
                   </nav>
                 </div>
     
                 <div class="site-footer__col-three">
-                  <h3 class="headline headline--small">Learn</h3>
+                  <!-- <h3 class="headline headline--small">Learn</h3> -->
                   <nav class="nav-list">
-                  <?php
-                      wp_nav_menu(array(
-                        'menu' => 'footer2',
-                        'container' => "",
-                        'theme_location' => 'footer2'
-                      ));
-                      ?>
-    
+                  <?php dynamic_sidebar('learn_widget');?> <?php dynamic_sidebar('learn_widget_fr');?>
                   </nav>
                 </div>
               </div>

@@ -23,7 +23,7 @@ get_header();
         </div>
         <div class="rowing " >
           <div class="categories__col col-lg col-sm-12">
-          <?php dynamic_sidebar('Responsive_widget');?> <?php dynamic_sidebar('Responsive_widget_fr');?>
+          <?php dynamic_sidebar('responsive_widget');?> <?php dynamic_sidebar('responsive_widget_fr');?>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style=" background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/mainscreen-_2_-scaled.jpeg);"></div>
@@ -35,15 +35,12 @@ get_header();
           </div>
           <div class="categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('security_widget');?> <?php dynamic_sidebar('security_widget_fr');?>
-              <!-- <h2 class="text-white text-center mt-5">Security</h2>
-              <p class="text-white text-center mt-5">All websites come with a SSL certificate</p> -->
+              
           </div>
         </div>
         <div class="rowing  " >
           <div class="categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('hosting_widget');?> <?php dynamic_sidebar('hosting_widget_fr');?>
-            <!-- <h2 class="text-white text-center mt-5">Hosting</h2>
-            <p class="text-white text-center mt-5">Hosting is essential, we can deal with this on your behalf</p> -->
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/Servers-scaled.jpeg);"></div>
@@ -72,7 +69,7 @@ get_header();
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/analyse_1-scaled.jpeg);"></div>
           </div>
           <div class="categories__col col-lg col-sm-12">
-          <?php dynamic_sidebar('SEO_widget');?> <?php dynamic_sidebar('SEO_widget_fr');?>
+          <?php dynamic_sidebar('seo_widget');?> <?php dynamic_sidebar('seo_widget_fr');?>
           </div>
         </div>
         <div class="rowing  " >

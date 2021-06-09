@@ -8,7 +8,7 @@ Version: 1.0
 html{
     height: 100%;
     font-family: 'roboto';
-    overflow-anchor: auto !important;
+    width: 100% !important;
 }
 body{
     height: 100%;
