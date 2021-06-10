@@ -10,7 +10,7 @@ get_header();
       <div class="logo"style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/long-logo-2-scaled.jpg);"></div>
 
     <div class="cool container-fluid"></div>
-    
+  
     
     <section class="categories pt-5">
         <div class="rowing potatoing" >

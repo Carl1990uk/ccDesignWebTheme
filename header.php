@@ -13,12 +13,9 @@
     <?php
   wp_head();
   ?>
-
-
 </head>
 <body>
   <div class="site-header">
-
   <?php
     wp_nav_menu(array(
       'menu' => 'primary',
@@ -43,3 +40,4 @@
     ));
   ?>
   </nav>
+  
