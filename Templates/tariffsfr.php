@@ -23,65 +23,50 @@ get_header();
         <div class="container-fluid con-col">
     <div class="row">
     <div class="col-sm-6">
-        <div class="card">
+        <div class="card" data-aos="fade-down-left">
         <div class="card-body">
-            <h5 class="card-title text-center new_title"><p class="card-text text-center">Basic</p></h5>
+            <h5 class="card-title text-center new_title"><p class="card-text text-center">Petite Entreprise</p></h5>
             <table>
                 <tbody class="text-white">
-                    <tr><td>Price:</td><td>€300</td></tr>
                     <tr><td>Nom de domaine et &amp; Hosting</td><td>&#x2713;</td></tr>
-                    <tr><td>Pages included in website</td><td>4 pages</td></tr>
+                    <tr><td>Pages included in website</td><td>4 - 10 pages</td></tr>
                     <tr><td>e-mail avec domaine se terminant</td><td>Option disponible</td></tr>
                     <tr><td>Visible sur différents écrans</td><td>&#x2713;</td></tr>
                     <tr><td>Optimisation du moteur de recherche</td><td>&#x2713;</td></tr>
                     <tr><td>Maintenance technique toute l’année</td><td>&#x2713;</td></tr>
-                    <tr><td>Paquet de langue</td><td>option available</td></tr>
+                    <tr><td>Paquet de langue</td><td>Option available</td></tr>
                     <tr><td>Site Web modifiable par le client</td><td>&#x2713;</td></tr>
                     <tr><td>Rédaction de contenu</td><td>Option disponible</td></tr>
                 </tbody>
-            </table>           
+            </table>
+            <p class="text-white text-center"><strong>Calendrier du projet de 3 semaines | Prix: €550 - €1,800</strong></p>           
         </div>
         </div>
     </div>
     <div class="col-sm-6">
-        <div class="card">
+        <div class="card" data-aos="fade-down-left">
         <div class="card-body">
-            <h5 class="card-title text-center new_title"><p class="card-text text-center">Advanced Package</p></h5>
-            <table>
-                <tbody class="text-white">
-                    <tr><td>Price</td><td>€430</td></tr>
-                    <tr><td>Nom de domaine et &amp; Hosting</td><td>&#x2713;</td></tr>
-                    <tr><td>pages included in website</td><td>6 pages</td></tr>
-                    <tr><td>E-mail avec domaine se terminant</td><td>option disponible</td></tr>
-                    <tr><td>Visible sur différents écrans</td><td>&#x2713;</td></tr>
-                    <tr><td>Optimisation du moteur de recherche</td><td>&#x2713;</td></tr>
-                    <tr><td>Maintenance technique toute l’année</td><td>&#x2713;</td></tr>
-                    <tr><td>Paquet de langue</td><td>option available</td></tr>
-                    <tr><td>Site Web modifiable par le client<</td><td>&#x2713;</td></tr>
-                    <tr><td>Rédaction de contenu</td><td>Option disponible</td></tr>
-                </tbody>
-            </table>           
+            <h5 class="card-title text-center new_title"><p class="card-text text-center">Ecommerce</p></h5>
+            <p class="text-white text-center">
+            Comprend toutes les fonctionnalités du site Web des petites entreprises<br> <br>
+            Peut prendre en charge une gamme de solutions de paiement en ligne, notamment les abonnements, les cartes de crédit/débit et Apple/Android Pay. <br> <br>
+                     Construit sur un système de gestion de commerce électronique (CMS) avec un contrôle complet de votre magasin et de vos produits. <br> <br>
+                     Peut répertorier jusqu'à 10 000 produits/catégories.<br><br>
+                   <strong>Calendrier du projet de 4 - 10 semaines | Prix: €1,800 - €9,500</strong>
+                   </p>          
         </div>
         </div>
     </div>
     <div class="col-sm-6">
-        <div class="card">
+        <div class="card" data-aos="fade-down-left">
         <div class="card-body">
-            <h5 class="card-title text-center new_title"><p class="card-text text-center">Pro Package</p></h5>
-            <table>
-                <tbody class="text-white">
-                    <tr><td>Price:</td><td>€550</td></tr>
-                    <tr><td>Nom de domaine et &amp; Hosting</td><td>&#x2713;</td></tr>
-                    <tr><td>pages included in website</td><td>10 pages</td></tr>
-                    <tr><td>E-mail avec domaine se terminant</td><td>option disponible</td></tr>
-                    <tr><td>Visible sur différents écrans</td><td>&#x2713;</td></tr>
-                    <tr><td>Optimisation du moteur de recherche</td><td>&#x2713;</td></tr>
-                    <tr><td>Maintenance technique toute l’année:</td><td>&#x2713;</td></tr>
-                    <tr><td>Paquet de langue</td><td>&#x2713;</td></tr>
-                    <tr><td>Site Web modifiable par le client<</td><td>&#x2713;</td></tr>
-                    <tr><td>Rédaction de contenu</td><td>Option disponible</td></tr>
-                </tbody>
-            </table>           
+            <h5 class="card-title text-center new_title"><p class="card-text text-center">Enterprise</p></h5>
+            <p class="text-white text-center">
+                Comprend toutes les fonctionnalités du site Web des petites entreprises / du commerce électronique<br> <br>
+                Idéal pour les grandes entreprises ou les entreprises qui ont besoin de sites Web hautement optimisés<br><br>
+                Ces types de sites sont généralement accompagnés d'un dossier détaillé, de directives de marque détaillées et d'objectifs ambitieux.<br><br>
+                <strong>Calendrier du projet de 12 - 24 semaines | Price: €11,500 - €90,000</strong>
+            </p>        
         </div>
         </div>
     </div>

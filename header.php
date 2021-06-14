@@ -8,6 +8,7 @@
     <meta name="keyword" content="Website design,creation,multilingual websites, SEO, ranking in Google,responsive website,bilingual,ccDesignWeb, ccDesignWeb.com, website creation near me, wordpress, bootstrap">
     <meta name="og:image" content="https://ccdesignweb.com/wp-content/uploads/2021/05/cclogo.jpg">
     <link rel="icon" href="https://ccdesignweb.com/wp-content/uploads/2021/05/cclogo.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title><?echo get_the_title();?></title>
     <meta name="google-site-verification" content="U8WRHuV60128jQByW0WmQaYVaUN0ZXjundhZFEWLH50"/>
     <?php

@@ -7,73 +7,73 @@ get_header();
       <a class="large_lang_fr" href="https://ccdesignweb.com/fr/home-2/"></a>
     </div>
 
-      <div class="logo"style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/long-logo-2-scaled.jpg);"></div>
+      <div class="logo"style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/long-logo-2-scaled.jpg);" data-aos="flip-left"></div>
 
     <div class="cool container-fluid"></div>
   
     
     <section class="categories pt-5">
-        <div class="rowing potatoing" >
+        <div class="rowing potatoing"  data-aos="fade-up" >
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/webdesign-_3_-scaled.jpeg);" ></div>
           </div>
-          <div class="categories__col col-lg col-sm-12">
+          <div class="container categories__col col-lg col-sm-12" c>
             <?php dynamic_sidebar('design_widget');?> <?php dynamic_sidebar('design_widget_fr');?>
           </div>
         </div>
-        <div class="rowing " >
-          <div class="categories__col col-lg col-sm-12">
+        <div class="rowing "  data-aos="fade-up">
+          <div class="container categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('responsive_widget');?> <?php dynamic_sidebar('responsive_widget_fr');?>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style=" background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/mainscreen-_2_-scaled.jpeg);"></div>
           </div>
         </div>
-        <div class="rowing potatoing  ">
+        <div class="rowing potatoing" data-aos="fade-up">
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/padlock-scaled.jpeg);"></div>
           </div>
-          <div class="categories__col col-lg col-sm-12">
+          <div class="container categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('security_widget');?> <?php dynamic_sidebar('security_widget_fr');?>
               
           </div>
         </div>
-        <div class="rowing  " >
-          <div class="categories__col col-lg col-sm-12">
+        <div class="rowing"  data-aos="fade-up">
+          <div class="container categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('hosting_widget');?> <?php dynamic_sidebar('hosting_widget_fr');?>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/Servers-scaled.jpeg);"></div>
           </div>
         </div>
-        <div class="rowing potatoing " >
+        <div class="rowing potatoing "  data-aos="fade-up">
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/wordpress-scaled.jpeg);"></div>
           </div>
-          <div class="categories__col col-lg col-sm-12">
+          <div class="container categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('easy_use_widget');?> <?php dynamic_sidebar('easy_use_widget_fr');?>
               <!-- <h2 class="text-white text-center mt-5">Easy use</h2>
               <p class="text-white text-center mt-5">After the website is published, you will have access to the WordPress CMS, and will have full power to edit your site as you please.</p> -->
           </div>
         </div>
-        <div class="rowing  ">
-          <div class="categories__col col-lg col-sm-12">
+        <div class="rowing"  data-aos="fade-up">
+          <div class="container categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('tech_widget');?> <?php dynamic_sidebar('tech_widget_fr');?>
           </div>
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/coding-scaled.jpeg);"></div>
           </div>
         </div>
-        <div class="rowing potatoing ">
+        <div class="rowing potatoing"  data-aos="fade-up">
           <div class="categories__col col-lg col-sm-12 ">
             <div class="photo1" style="background-image: url(https://ccdesignweb.com/wp-content/uploads/2021/06/analyse_1-scaled.jpeg);"></div>
           </div>
-          <div class="categories__col col-lg col-sm-12">
+          <div class="container categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('seo_widget');?> <?php dynamic_sidebar('seo_widget_fr');?>
           </div>
         </div>
-        <div class="rowing  " >
-          <div class="categories__col col-lg col-sm-12">
+        <div class="rowing"  data-aos="fade-up" >
+          <div class="container categories__col col-lg col-sm-12">
           <?php dynamic_sidebar('domain_widget');?> <?php dynamic_sidebar('domain_widget_fr');?>
             <!-- <h2 class="text-white text-center mt-5">Domain</h2>
             <p class="text-white text-center mt-5">Not forgetting the most important part, we will help you find the perfect name for your business.</p> -->
@@ -85,7 +85,7 @@ get_header();
     </section>
   <!-- <div class="art"></div> -->
   <div class="full-width-split group" >
-      <div class=" full-width-split__one" >
+      <div class="full-width-split__one" data-aos="fade-right">
           <div class="full-width-split__inner" style="overflow:hidden">
               <h2 class="headline headline--small-plus t-center">Latest Blog</h2>
               <?php
@@ -110,7 +110,7 @@ get_header();
               <p class="t-center no-margin"><a href="http://ccdesignweb.com/blog" class="btn btn--blue">View All Blog Posts</a></p>
           </div>
       </div>
-            <div class="full-width-split__two " style="overflow:hidden">
+            <div class="full-width-split__two" style="overflow:hidden" data-aos="fade-left">
               <div class="full-width-split__inner" style="overflow:hidden">
               <h2 class="headline headline--small-plus t-center text-white">Latest Work</h2>
               <?php
