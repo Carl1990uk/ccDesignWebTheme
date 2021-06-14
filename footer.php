@@ -47,7 +47,7 @@
                   <ul class="min-list  group">
                     
                     <li>
-                      <a href="#" class="social-color-linkedin"><i class="fa fa-linkedin"></i></a>
+                      <a href="https://www.linkedin.com/company/78135196/" class="social-color-linkedin"><i class="fa fa-linkedin"></i></a>
                     </li>
                    
                   </ul>

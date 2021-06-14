@@ -66,7 +66,7 @@ get_header();
                 Includes all features of Small Business website/ Ecommerce <br> <br>
                 Ideal for larger corporations or enterprises that require highly optimised websites <br><br>
                 These sorts of site usually come with a in-depth brief, extensive brand guidelines and ambitious goals. <br><br>
-                <strong>Project timeline of 12 - 24 weeks | Price: 10,000 - £75,000</strong>
+                <strong>Project timeline of 12 - 24 weeks | Price: £10,000 - £75,000</strong>
             </p>   
         </div>
         </div>
