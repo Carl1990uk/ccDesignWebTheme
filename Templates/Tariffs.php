@@ -39,7 +39,7 @@ get_header();
                     <tr><td>Content writing</td><td>Option</td></tr>
                 </tbody>
             </table> 
-            <p class="text-white text-center"><strong>Project timeline of 3 weeks | Price: £450 - £ 1,500</strong></p>
+            <p class="text-white text-center"><strong>Project timeline of 3 weeks | Price: £450 - £1,500</strong></p>
         </div>
         </div>
     </div>
@@ -52,7 +52,7 @@ get_header();
                    Can support a range of payment online solutions including subscriptions, credit/debit cards, and Apple/Android pay. <br> <br>
                    Built on ecommerce management system (CMS) with complete control of your store & products. <br> <br>
                    Can list up to 10,000 products/categories. <br><br>
-                   <strong>Project timeline of 4 - 10 weeks | Price: £ 1,500 - £8,000</strong>
+                   <strong>Project timeline of 4 - 10 weeks | Price: £1,500 - £8,000</strong>
                    </p> 
         </div>
         </div>

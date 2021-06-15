@@ -4,13 +4,11 @@
   <footer>
       <div class="container-fluid me">
          
+      <div class="mb-5">
           <?php dynamic_sidebar('foot_widget');?> <?php dynamic_sidebar('foot_widget_fr');?>
-           
-          <div class="middle">
-            <p>
-              <!-- <em></em> -->
-            </p>
-          </div>
+      </div>
+          
+      
           <div class="site-footer__inner container container--narrow">
             <div class="group">
               <div class="site-footer__col-one">
@@ -18,7 +16,8 @@
                   <a href="#">cc<strong>DesignWeb</strong></a></h1>
                   <nav class="nav-list">
                     <ul class="contact_details">
-                      <li>Phone: 0611584705</li>
+                      <li>UK Office: 0203 4880 572</li>
+                      <li>France Office: 0611584705</li>
                       <li>Email: info@ccdesignweb.com</li>
                     </ul>
                   </nav>
